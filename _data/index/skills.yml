@@ -1,0 +1,6 @@
+# skills section data
+
+label: Specialties
+id : cs
+aspects: Leadership, Engineering, Management, Threat Assessments, Coding, CloudOps
+percentage: 80, 75, 85, 60, 25, 25

@@ -1,0 +1,13 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name: T. Rowe Price
+  date: April 2015 - Present
+  job: VP, Manager Security Engineering & Operations
+
+- name: RGS Specialists
+  date: September 2013 - Present
+  job: Owner/Operator
+
+- name: Computer Sciences Corporation CSC
+  date: January 2012 - April 2015
+  job: Principal Lead Security Architect
