@@ -186,7 +186,7 @@ It is a typical Rail Fence cipher - just used Cyberchef again :).
 >
 >  Hint! Well you sure as hell ain't going to solve this one through factorization.
 
-Notice that the Ciphertext is a series of letters? Good, we wont have to break anythingwe can just brute force it.
+Notice that the Ciphertext is a series of letters? Good, we wont have to break anything we can just brute force it.
 * `intercepted.txt`
 
 ```
