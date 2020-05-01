@@ -6,12 +6,11 @@ excerpt: "Writeups for various CTFs I solved during the 2020 Houseplant CTF (ric
 categories: [Capture The Flag]
 ---
 
-> Houseplant CTF is a capture the flag made with the new RiceTeaCatPanda - I must say they win the "Best Name" for a CTF award. The only thing I didn't like, and it is minor, is the fact they gave the hints to challenges w/o requesting them.
+Houseplant CTF is a capture the flag made with the new RiceTeaCatPanda - I must say they win the "Best Name" for a CTF award. The only thing I didn't like, and it is minor, is the fact they gave the hints to challenges w/o requesting them.
 > 
 > This is the link: https://discordapp.com/invite/QRhHGJA
 
 
-T
 &nbsp;
 &nbsp;
 ---
@@ -27,7 +26,7 @@ IMHO, more CTFs need to include a Beginners section, where less experienced play
 &nbsp;
 ![]({{ site.baseurl }}/img/rtcp_ctf/beginner1.png)
 &nbsp;
->Alternatively you can do it straight from Bash.
+Alternatively you can do it straight from Bash.
 {% highlight bash %}
 echo cnRjcHt5b3VyZV92ZXJ5X3dlbGNvbWV9 | base64 -d; echo
 rtcp{youre_very_welcome}
@@ -115,6 +114,7 @@ rtcp{youre_very_welcome}
 > Hope you've been paying attention! :D  
 > Remember to wrap the flag with rtcp{}
 > This last challenge was basically using most of the above techniques from the first 8.
+
 &nbsp;
 ![]({{ site.baseurl }}/img/rtcp_ctf/beginner9.png)
 &nbsp;
@@ -122,7 +122,7 @@ rtcp{youre_very_welcome}
 **Flag is `rtcp{nineornone}`.**
 
 # Crypto
->A common site I use for crypto challenges is [dcode](wwww.dcode.fr/en); it's good one to bookmark.
+A common site I use for crypto challenges is [dcode](wwww.dcode.fr/en); it's good one to bookmark.
 
 ## Sizzle
 > Due to the COVID-19 outbreak, we ran all out of bacon, so we had to use up the old stuff instead. Sorry for any inconvenience caused...
@@ -136,7 +136,7 @@ The attached `encoded.txt` file gives:
 ```
 ....- ..... ...-. .--.- .--.. ....- -..-- -..-. ..--. -.... .-... .-.-. .-.-. ..-.. ...-- ..... .--.. ...-- .-.-- .--.- -.... -...- .-... ..-.- .-... ..-.. ...--
 ```
-> As the name "Sizzle" implies this is a Bacon cipher. Before we decode the cipher, we need to convert the -'s and .'s to 1's and 0's (or A's and B's if you prefer). To do so we use the find/replace function.
+As the name "Sizzle" implies this is a Bacon cipher. Before we decode the cipher, we need to convert the -'s and .'s to 1's and 0's (or A's and B's if you prefer). To do so we use the find/replace function.
 
 &nbsp;
 ![]({{ site.baseurl }}/img/rtcp_ctf/sizzle.png)
@@ -174,6 +174,7 @@ The text was too long for Dcode so, I just copied the last portion. The key was 
 > tat_uiwirc{s_iaaotrc_ahn}pkdb_esg
 
 It is a typical Rail Fence cipher - just used Cyberchef again :).
+
 &nbsp;
 ![]({{ site.baseurl }}/img/rtcp_ctf/rail.png)
 &nbsp;
@@ -297,26 +298,26 @@ It's just math, more specifically Matrix Mathmatics. Followng the hint, we had t
 
 ## 11
 > I wrote a quick script, would you like to read it? - Daphne
+>
+>(doorbell rings)
+>delphine: Jess, I heard you've been stressed, you should know I'm always ready to help!
+>Jess: Did you make something? I'm hungry...
+>Delphine: Of course! Fresh from the bakery, I wanted to give you something, after all, you do so much to help me all the time!
+>Jess: Aww, thank you, Delphine! Wow, this bread smells good. How is the bakery?
+>Delphine: Lots of customers and positive reviews, all thanks to the mention in rtcp!
+>Jess: I am really glad it's going well! During the weekend, I will go see you guys. You know how much I really love your amazing black forest cakes.
+>Delphine: Well, you know that you can get a free slice anytime you want.
+>(doorbell rings again)
+>Jess: Oh, that must be Vihan, we're discussing some important details for rtcp.
+>Delphine: sounds good, I need to get back to the bakery!
+>Jess: Thank you for the bread! <3
 
-(doorbell rings)
-delphine: Jess, I heard you've been stressed, you should know I'm always ready to help!
-Jess: Did you make something? I'm hungry...
-Delphine: Of course! Fresh from the bakery, I wanted to give you something, after all, you do so much to help me all the time!
-Jess: Aww, thank you, Delphine! Wow, this bread smells good. How is the bakery?
-Delphine: Lots of customers and positive reviews, all thanks to the mention in rtcp!
-Jess: I am really glad it's going well! During the weekend, I will go see you guys. You know how much I really love your amazing black forest cakes.
-Delphine: Well, you know that you can get a free slice anytime you want.
-(doorbell rings again)
-Jess: Oh, that must be Vihan, we're discussing some important details for rtcp.
-Delphine: sounds good, I need to get back to the bakery!
-Jess: Thank you for the bread! <3
-
-Dev: Delphine
- Hint! I was eleven when I finished A Series of Unfortunate Events.
+>Dev: Delphine
+ >Hint! I was eleven when I finished A Series of Unfortunate Events.
  Hint! Flag is in format: rtcp{} format add _ (underscores) in place of spaces.
  Hint! Character names count too
 
-> Did some gooling on Series of Unfortunate Events and crypto and found that it is every 11th word between the "rings/knocks". Technically, from what I read it is the first word and then every 11th word and the names didn't count. I had to PM the dev, because my flag was putting in the first word.
+Did some gooling on Series of Unfortunate Events and crypto and found that it is every 11th word between the "rings/knocks". Technically, from what I read it is the first word and then every 11th word and the names didn't count. I had to PM the dev, because my flag was putting in the first word.
 
 **Flag is `rtcp{I'm_hungry_give_me_bread_and_I_will_love_you`.**
 
